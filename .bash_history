@@ -292,3 +292,51 @@ sudo mkdir assignment1
 cd assignment1/
 git init
 sudo su
+sudo su .
+sudo su 
+mkdir Assignment1
+cd Assignment1/
+git init
+touch file1.txt
+ls
+git status
+git add .
+git commit -m "first commit"
+git branch
+git branch develop
+git branch
+cd ..
+mkdir F1
+git init
+touch test1.txt
+ls 
+git add .
+git commit -m "This is my second commit"
+pwd
+git status
+git remote -v
+git remote add origin https://github.com/archanad29/trial1.git
+git push --all
+git branch
+git branch develop
+git push
+git push --all
+touch test2.txt
+git add .
+git commit -m "this is third commit'
+"
+git status
+git branch develop
+git branch
+git checkout develop
+git commit -m "commiting changes"
+git commit -a -m "commiting changes"
+git push origin develop
+touch test3.txt
+git branch
+git branch develop
+git checkout develop
+git add .
+git commit -m "commiting latest changes"
+git push 
+git push --set-upstream origin develop
